@@ -46,14 +46,6 @@ int main()
             j++;
         }
     }
-    while(i<=k)
-    {
-        v_t[++k2] = v[i];
-    }
-    while(j<=k1)
-    {
-        v_t[++k2] = v1[j];
-    }
     for(i=1;i<=k2;i++)
         cout << v_t[i] << " ";
     return 0;
